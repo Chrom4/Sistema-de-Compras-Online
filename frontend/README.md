@@ -1,16 +1,110 @@
-# React + Vite
+# 🖥️ Sistema de Compras Online - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Interface web desenvolvida em **React + Vite**, responsável por fornecer uma experiência moderna e intuitiva para gerenciamento de compras, fornecedores, produtos, pedidos e relatórios do sistema.
 
-Currently, two official plugins are available:
+## 🚀 Tecnologias Utilizadas
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* React
+* Vite
+* React Router DOM
+* JavaScript (ES6+)
+* CSS3
+* Axios (requisições HTTP)
+* ESLint
 
-## React Compiler
+## 📋 Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* Autenticação de usuários
+* Controle de acesso por perfil
+* Dashboard com indicadores de compras
+* Cadastro e gerenciamento de produtos
+* Cadastro e gerenciamento de fornecedores
+* Controle de pedidos de compra
+* Consulta e filtragem de registros
+* Relatórios e visualização de dados
+* Interface responsiva para diferentes dispositivos
 
-## Expanding the ESLint configuration
+## 📦 Pré-requisitos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Antes de iniciar o projeto, certifique-se de possuir instalado:
+
+* Node.js (versão 18 ou superior)
+* npm ou yarn
+* Backend da aplicação em execução
+
+## ⚙️ Instalação
+
+Clone o repositório:
+
+```bash
+git clone <url-do-repositorio>
+```
+
+Acesse a pasta do projeto:
+
+```bash
+cd frontend
+```
+
+Instale as dependências:
+
+```bash
+npm install
+```
+
+## ▶️ Executando o Projeto
+
+Inicie o servidor de desenvolvimento:
+
+```bash
+npm run dev
+```
+
+A aplicação ficará disponível em:
+
+```text
+http://localhost:5173
+```
+
+## 🏗️ Build para Produção
+
+Para gerar a versão de produção:
+
+```bash
+npm run build
+```
+
+Os arquivos otimizados serão gerados na pasta:
+
+```text
+dist/
+```
+
+## 🔍 Preview da Build
+
+Para visualizar localmente a versão de produção:
+
+```bash
+npm run preview
+```
+
+## 📁 Estrutura do Projeto
+
+```text
+src/
+├── components/
+├── pages/
+├── services/
+├── hooks/
+├── helpers/
+├── assets/
+└── routes/
+```
+
+## 🔗 Integração com Backend
+
+O frontend consome a API REST do Sistema de Compras Online. Certifique-se de que o backend esteja em execução e que a URL da API esteja corretamente configurada.
+
+## 👨‍💻 Desenvolvedor
+
+Projeto desenvolvido para fins acadêmicos e demonstração de conhecimentos em desenvolvimento Full-Stack utilizando React, Node.js e MySQL.
